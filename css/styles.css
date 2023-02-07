@@ -22,6 +22,7 @@
   .page-header {
     padding: 10px;
     width: 1440px;
+    text-decoration: none;
   }
   
   .navigation .link {
@@ -30,16 +31,28 @@
     line-height: 1.5;
   
     letter-spacing: 0.02em;
-  
+    text-decoration: none;
     color: var(--color-primary-dark);
   }
   .navigation .link:hover {
     color: var(--clr-button-on);
   }
-  .page-addres .link {
+  .mail {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-primary);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-primary)
+  }
+  .mail:hover {
+    color: var(--clr-button-on);
+  }
+  .page-addres {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-primary-dark)
   }
   .page-addres .link:hover {
     color: var(--clr-button-on);
@@ -50,18 +63,13 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--color-button-off);
   }
   .logo-second-f {
     color: var(--clr-background-dark);
   }
   .logo-second {
-    letter-spacing: 0.03em;
-    font-family: var(--font-family-big);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
     color: var(--color-primary-dark);
   }
   .page-logo {
@@ -270,15 +278,11 @@
     color: var(--color-primary-dark);
   }
   .paragraf-portfolio {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-primary);
   }  
   .portfolio-img {
-     background: linear-gradient (0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), 
-     url(4074365.jpg);
-     background-blend-mode: soft-light, normal;
-     mix-blend-mode: normal;
+    mix-blend-mode: normal;
   }
