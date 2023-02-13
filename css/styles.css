@@ -102,8 +102,7 @@
     letter-spacing: 0.02em;
   }
   .img-sl {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
-    background-blend-mode: soft-light, normal;
+    
   }
   
   .section-too-p {
@@ -123,12 +122,12 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--color-primary-dark);
-    background-color: var(--clr-background-dark);
+    
   }
   .foto-tim-main-m {
     background: url(man-with-laptop-presenting-something.jpg);
     mix-blend-mode: normal;
-  
+    
     flex: none;
     order: 0;
     flex-grow: 0;
